@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from "@storybook/react"
-import { WithCustomFont } from "../_Decorators/WithCustomFont"
 // eslint-disable-next-line import/order
 import { Button } from "./Button"
 
@@ -22,7 +21,7 @@ const meta: Meta<typeof Button> = {
       control: { type: "select" },
     },
   },
-  decorators: [WithCustomFont],
+  // decorators: [WithCustomFont],
 }
 
 type Story = StoryObj<typeof Button>
