@@ -13,12 +13,13 @@ const button = cva(
     "border-blue-400",
     "transition-colors",
     "delay-50",
+    "cursor-pointer"
     // "font-sfProText",
   ],
   {
     variants: {
       intent: {
-        primary: ["bg-blue-400", "text-white", "hover:enabled:bg-blue-700"],
+        primary: ["bg-primary", "text-[#fff]", "hover:enabled:bg-primary-500"],
         secondary: ["bg-transparent", "text-blue-400", "hover:enabled:bg-blue-400", "hover:enabled:text-white"],
       },
       size: {
