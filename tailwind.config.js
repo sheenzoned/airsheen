@@ -15,6 +15,15 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      "2xs": { min: "0px", max: "319.98px" },
+      xs: "320px",
+      sm: "576px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": { min: "1536px", max: "1920px" },
+    },
     fontFamily: {
       storybook: ["var(--font-inter)", "Inter"],
       body: ["var(--font-inter)", "Inter"],
@@ -77,12 +86,11 @@ module.exports = {
         500: "#FF929B",
       },
       white: {
-        DEFAULT: '#ffffff'
-      }
+        DEFAULT: "#ffffff",
+      },
     },
     extend: {
-      colors: {
-      },
+      colors: {},
       fontFamily: {
         body: [
           "Inter",
