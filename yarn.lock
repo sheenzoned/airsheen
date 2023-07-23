@@ -3918,7 +3918,7 @@
   integrity sha512-bp7eoOYnoKp48H7tx0nkhhi9y7qUBr2YE9pd2DdxlS+4s2REglVeh1bNbBEYg9QUKPeKgUoWLMonLMTuCUyLoQ==
   dependencies:
     "@figspec/react" "^1.0.0"
-
+    
 "@storybook/addon-docs@7.1.0":
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-7.1.0.tgz#bcff1865bb4d71652a144d6231fa99f46934ee06"
